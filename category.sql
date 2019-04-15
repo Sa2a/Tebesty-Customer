@@ -2,17 +2,8 @@
 -- --------------------------------------------------------
 
 --
--- Table structure for table `category`
+-- Table structure for table 'category'
 --
-
-CREATE TABLE `category` (
-  `ID` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `catID` int(11) NOT NULL,
-  `main` tinyint(1) NOT NULL,
-  `deleted` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
 --
 -- Dumping data for table `category`
 --
